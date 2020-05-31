@@ -20,6 +20,7 @@ def selection_sort(alist):
             alist[i], alist[min_index] = alist[min_index], alist[i]
 
 
-alist = [54,226,93,17,77,31,44,55,20]
-selection_sort(alist)
-print(alist)
+if __name__ == '__main__':
+    alist = [54,226,93,17,77,31,44,55,20]
+    selection_sort(alist)
+    print(alist)

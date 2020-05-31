@@ -21,6 +21,7 @@ def shell_sort(alist):
         gap = gap / 2
 
 
-alist = [54,26,93,17,77,31,44,55,20]
-shell_sort(alist)
-print(alist)
+if __name__ == '__main__':
+    alist = [54,26,93,17,77,31,44,55,20]
+    shell_sort(alist)
+    print(alist)

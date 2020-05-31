@@ -14,6 +14,7 @@ def insert_sort(alist):
                 alist[j], alist[j-1] = alist[j-1], alist[j]
 
 
-alist = [54,26,93,17,77,31,44,55,20]
-insert_sort(alist)
-print(alist)
+if __name__ == '__main__':
+    alist = [54,26,93,17,77,31,44,55,20]
+    insert_sort(alist)
+    print(alist)
